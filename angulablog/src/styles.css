@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111111;
-    color: white;
+    background-color: rgb(219, 219, 219);
+    color: rgba(201, 148, 3, 0.856) ;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

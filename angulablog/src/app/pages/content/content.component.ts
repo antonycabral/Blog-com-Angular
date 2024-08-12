@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {dataFake} from '../../data/dataFake'
+import { dataFake } from '../../data/dataFake'
 
 @Component({
   selector: 'app-content',
@@ -22,6 +22,8 @@ export class ContentComponent implements OnInit {
     this.route.paramMap.subscribe( value =>
       this.id = value.get("id")
     )
+
+    this.setValuesToComponent(this.id)
   }
 
   setValuesToComponent(id:String | null ){
