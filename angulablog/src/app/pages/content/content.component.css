@@ -13,11 +13,10 @@
 
 
 .content-cover > img{
-    border: 3px solid rgb(114, 114, 114);
     border-radius: 5px;
-    width: 500px;
-    min-width: 500px;
-    height: 400px;
+    width: 400px;
+    min-width: 400px;
+    height: 600px;
 }
 
 .content-description{
